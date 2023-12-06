@@ -9,15 +9,17 @@ import gridImage from "../../assets/gridImage.jpg";
 
 const Portfolio = () => {
   return (
-    <div className="portfolio section flex">
-      <div className="secContainer container grid grid-flow-col grid-cols-2">
+    <div className="portfolio section">
+      <div className="secContainer">
+        <div className="secHeading">
+          <h3>Why Should You Choose Us?</h3>
+          <p>
+            We have extensive knowledge and experience in the travel industry
+          </p>
+        </div>
+      </div>
+      <div className="secContainer flex">
         <div className="leftContainer">
-          <div className="secHeading">
-            <h3>Why Should You Choose Us?</h3>
-            <p>
-              We have extensive knowledge and experience in the travel industry
-            </p>
-          </div>
           <div className="grid">
             <div className="singlePortfolio flex-left">
               <div className="iconDiv">
@@ -68,8 +70,8 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-        <div className="rightContainer">
-          <img src={gridImage} alt="Image" className="w-[50%]" />
+        <div className="rightContainer flex">
+          <img src={gridImage} alt="Image" className="" />
         </div>
       </div>
     </div>

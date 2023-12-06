@@ -89,7 +89,7 @@ const Destinations = () => {
             Fill in the fields below to find the best spot for your next tour.
           </p>
         </div>
-        <div className="searchField grid">
+        <div className="searchField flex">
           <div className="inputField flex">
             <MdLocationPin className="icon" />
             <input type="text" placeholder="Location" />
@@ -107,6 +107,7 @@ const Destinations = () => {
             Search
           </button>
         </div>
+        {/* TODO: fix menu */}
         <div className="secMenu">
           <ul className="flex">
             <li className="active">All</li>
@@ -118,7 +119,7 @@ const Destinations = () => {
           </ul>
         </div>
 
-        <div className="destinationContainer grid grid-cols-2">
+        <div className="destinationContainer flex">
           {destinations.map((destination) => {
             return (
               <div className="singleDestination" key={destination.id}>

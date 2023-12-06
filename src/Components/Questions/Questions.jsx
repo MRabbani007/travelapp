@@ -6,7 +6,7 @@ const Questions = () => {
   const [active, setActive] = useState("");
   return (
     <div className="questions section flex">
-      <div className="container">
+      <div className="secContainer">
         <div className="secHeading">
           <h1>Frequently Asked Questions</h1>
         </div>

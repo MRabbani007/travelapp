@@ -3,9 +3,9 @@ import "./Middle.css";
 
 const Middle = () => {
   return (
-    <div className="middle section flex">
-      <div className="secContainer container">
-        <div className="grid grid-cols-2">
+    <div className="middle section flex justify-center">
+      <div className="secContainer">
+        <div className="flex middleCont">
           <span className="flex">
             <h1>10</h1>
             <p>World of experiences</p>

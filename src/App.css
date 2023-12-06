@@ -124,10 +124,11 @@ img, video {
   padding: 4rem 0 2rem;
 }
 
-.container {
+.secContainer {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   width: 80%;
+  margin: 0 auto;
 }
 
 ::-moz-selection {
@@ -149,4 +150,10 @@ img, video {
   width: 10px;
   background: var(--primaryColor);
   border-radius: var(--borderRadius);
+}
+
+@media screen and (max-width: 768px) {
+  .secContainer {
+    width: 100%;
+  }
 }/*# sourceMappingURL=App.css.map */

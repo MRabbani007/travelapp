@@ -7,7 +7,7 @@ import subscribeImage from "../../assets/subscribe-image.png";
 const Subscribe = () => {
   return (
     <div className="subscribe section">
-      <div className="container secContainer grid">
+      <div className="secContainer flex">
         <img src={subscribeImage} alt="" />
         <div className="textDiv">
           <h3>Best Way To Start Your Journey!</h3>
