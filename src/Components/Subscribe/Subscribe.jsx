@@ -8,7 +8,7 @@ const Subscribe = () => {
   return (
     <div className="subscribe section">
       <div className="secContainer flex">
-        <img src={subscribeImage} alt="" />
+        <img src={subscribeImage} alt="" data-aos="fade-open" />
         <div className="textDiv">
           <h3 data-aos="fade-up">Best Way To Start Your Journey!</h3>
           <p data-aos="fade-up">

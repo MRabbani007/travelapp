@@ -46,10 +46,13 @@
 .Home .sectionText {
   position: absolute;
   height: 100%;
-  top: 50%;
-  bottom: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   color: var(--whiteColor);
-  padding: 0 1.5rem;
+  padding: 5rem 1.5rem 0;
 }
 .Home .sectionText h1 {
   font-size: var(--biggestontSize);
@@ -65,9 +68,34 @@
   padding-left: 2rem;
   padding-right: 2rem;
   font-size: var(--h3FontSize);
+  width: -moz-fit-content;
+  width: fit-content;
 }
 .Home .popularPlaces {
-  font-size: var(--biggestontSize);
-  color: var(--blackColor);
+  font-size: var(--h3FontSize);
+  color: var(--whiteColor);
   background-color: transparent;
+  width: 100%;
+}
+.Home .popularPlaces .content {
+  width: 100%;
+}
+.Home .popularPlaces .content h3 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--whiteColor);
+}
+.Home .popularPlaces .content .images {
+  width: 100%;
+  height: 100%;
+  justify-content: space-evenly;
+}
+.Home .popularPlaces .content .images img {
+  width: 250px;
+  height: 150px;
+  -o-object-fit: fill;
+     object-fit: fill;
+  box-shadow: 1px 1px 1px 1px var(--blackColor);
+  border-radius: 5px;
 }/*# sourceMappingURL=Home.css.map */

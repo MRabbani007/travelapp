@@ -1,14 +1,18 @@
 import React, { useEffect } from "react";
 import "./Home.css";
+// Imported Components
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 // imported icons
 import { AiOutlineSwapRight } from "react-icons/ai";
 
-// imported assets
+// imported Media
 import Video from "../../assets/video.mp4";
-
-import Aos from "aos";
-import "aos/dist/aos.css";
+import Image1 from "../../assets/airballoons.jpg";
+import Image2 from "../../assets/bora-bora-1.jpg";
+import Image3 from "../../assets/bora-bora-2.jpg";
+import Image4 from "../../assets/iceland.jpg";
 
 const Home = () => {
   useEffect(() => {
@@ -33,7 +37,12 @@ const Home = () => {
         <div className="popularPlaces">
           <div className="content">
             <h3 data-aos="fade-up">Popular Places</h3>
-            <div className="images flex" data-aos="fade-up"></div>
+            <div className="images flex" data-aos="fade-up">
+              <img src={Image1} alt="" className="imageThumb" />
+              <img src={Image2} alt="" className="imageThumb" />
+              <img src={Image3} alt="" className="imageThumb" />
+              <img src={Image4} alt="" className="imageThumb" />
+            </div>
           </div>
         </div>
       </div>

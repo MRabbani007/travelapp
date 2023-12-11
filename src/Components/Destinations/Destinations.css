@@ -54,8 +54,24 @@
   justify-content: center;
   width: 100%;
 }
-.destination .secContainer .secMenu {
-  display: none;
+.destination .secContainer .secMenu ul {
+  margin: 1rem 0;
+  justify-content: center;
+}
+.destination .secContainer .secMenu ul li {
+  margin: 0 1rem;
+  border-radius: var(--borderRadius);
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--primaryColorLight);
+  color: var(--greyText);
+  cursor: pointer;
+}
+.destination .secContainer .secMenu ul li:first-child {
+  border: 1px solid var(--primaryColor);
+  color: var(--primaryColor);
+}
+.destination .secContainer .secMenu ul li:hover {
+  background-color: var(--primaryColorLight);
 }
 .destination .secContainer .destinationContainer {
   margin-top: 2rem;

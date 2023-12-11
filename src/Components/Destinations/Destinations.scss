@@ -68,7 +68,28 @@
     }
 
     .secMenu{
-      display: none;
+      ul{
+        margin: 1rem 0;
+        justify-content: center;
+
+        li{
+          margin: 0 1rem;
+          border-radius: var(--borderRadius);
+          padding: .5rem 1rem;
+          border: 1px solid var(--primaryColorLight);
+          color: var(--greyText);
+          cursor: pointer;
+        }
+
+        li:first-child{
+          border: 1px solid var(--primaryColor);
+          color: var(--primaryColor);
+        }
+
+        li:hover{
+          background-color: var(--primaryColorLight);
+        }
+      }
     }
 
     .destinationContainer {

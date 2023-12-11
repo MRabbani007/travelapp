@@ -2,12 +2,12 @@ import React, { useEffect } from "react";
 import "./Destinations.css";
 
 // imported images
-import Image1 from "../../assets/image1.jpg";
-import Image2 from "../../assets/image2.jpg";
-import Image3 from "../../assets/image3.jpg";
-import Image4 from "../../assets/image4.jpg";
+import Image1 from "../../assets/bora-bora-1.jpg";
+import Image2 from "../../assets/bora-bora-2.jpg";
+import Image3 from "../../assets/maldives.jpg";
+import Image4 from "../../assets/santorini.jpg";
 import Image5 from "../../assets/image5.jpg";
-import Image6 from "../../assets/image6.jpg";
+import Image6 from "../../assets/maui.jpg";
 import Image7 from "../../assets/image7.jpg";
 import Image8 from "../../assets/image8.jpg";
 

@@ -55,7 +55,7 @@
 .navBar .menuIcon {
   display: none;
 }
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .navBar .menu {
     display: block;
     position: absolute;
