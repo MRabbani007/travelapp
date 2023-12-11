@@ -52,6 +52,9 @@
   margin: 0 10px;
   cursor: pointer;
 }
+.navBar .menuIcon {
+  display: none;
+}
 @media (max-width: 768px) {
   .navBar .menu {
     display: block;
@@ -83,24 +86,24 @@
   .navBar .links {
     display: none;
   }
-}
-.navBar .menuIcon, .navBar .closeIcon {
-  font-size: var(--h1FontSize);
-}
-.navBar .menuIcon:hover, .navBar .closeIcon:hover {
-  color: var(--primaryColor);
-}
-.navBar .menuIcon {
-  display: none;
-}
-.navBar .closeIcon {
-  position: absolute;
-  bottom: -15px;
-  right: 50%;
-  left: 50%;
-  color: var(--blackColor);
-  transform: translate(-50%);
-}
-.navBar .showNavBar {
-  top: 8rem;
+  .navBar .menuIcon, .navBar .closeIcon {
+    font-size: var(--h1FontSize);
+  }
+  .navBar .menuIcon:hover, .navBar .closeIcon:hover {
+    color: var(--primaryColor);
+  }
+  .navBar .menuIcon {
+    display: block;
+  }
+  .navBar .closeIcon {
+    position: absolute;
+    bottom: -15px;
+    right: 50%;
+    left: 50%;
+    color: var(--blackColor);
+    transform: translate(-50%);
+  }
+  .navBar .showNavBar {
+    top: 8rem;
+  }
 }/*# sourceMappingURL=Navbar.css.map */

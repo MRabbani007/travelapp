@@ -25,12 +25,14 @@ const Navbar = () => {
         <BiLogoMediumOld className="icon" />
         <span>OU-Trips</span>
       </div>
+      {/* Links for Large Screens */}
       <ul className="links">
         <li className="navList">Destinations</li>
         <li className="navList">About Us</li>
         <li className="navList">Testimonial</li>
         <li className="navList">Gallery</li>
       </ul>
+      {/* Menu for Small Screens */}
       <div className={navBar}>
         <ul>
           <li className="navList">Destinations</li>

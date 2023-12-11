@@ -10,12 +10,14 @@ const Subscribe = () => {
       <div className="secContainer flex">
         <img src={subscribeImage} alt="" />
         <div className="textDiv">
-          <h3>Best Way To Start Your Journey!</h3>
-          <p>
+          <h3 data-aos="fade-up">Best Way To Start Your Journey!</h3>
+          <p data-aos="fade-up">
             We offer personalized itinaries tailored to individual preferences
             and interests.
           </p>
-          <button className="btn">Start Here</button>
+          <button className="btn" data-aos="fade-up">
+            Start Here
+          </button>
         </div>
       </div>
     </div>

@@ -67,5 +67,7 @@
   font-size: var(--h3FontSize);
 }
 .Home .popularPlaces {
-  display: none;
+  font-size: var(--biggestontSize);
+  color: var(--blackColor);
+  background-color: transparent;
 }/*# sourceMappingURL=Home.css.map */

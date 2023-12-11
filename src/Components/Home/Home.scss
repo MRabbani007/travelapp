@@ -76,6 +76,8 @@
   }
 
   .popularPlaces{
-    display: none;
+    font-size: var(--biggestontSize);
+    color: var(--blackColor);
+    background-color: transparent;
   }
 }
