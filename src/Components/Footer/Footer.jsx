@@ -66,7 +66,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="footerLinks">
-          <p className="linkTitle">Contact Details</p>
+          <span className="linkTitle">Contact Details</span>
           <p className="phone">+7 123 456 78 90</p>
           <p className="email">helpdesk@moutrips.com</p>
         </div>

@@ -55,11 +55,12 @@
   width: 100%;
 }
 .destination .secContainer .secMenu ul {
-  margin: 1rem 0;
-  justify-content: center;
+  margin-top: 0.5rem;
+  justify-content: left;
+  flex-wrap: wrap;
 }
 .destination .secContainer .secMenu ul li {
-  margin: 0 1rem;
+  margin: 0.5rem;
   border-radius: var(--borderRadius);
   padding: 0.5rem 1rem;
   border: 1px solid var(--primaryColorLight);

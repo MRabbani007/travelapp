@@ -69,11 +69,12 @@
 
     .secMenu{
       ul{
-        margin: 1rem 0;
-        justify-content: center;
+        margin-top: 0.5rem;
+        justify-content: left;
+        flex-wrap: wrap;
 
         li{
-          margin: 0 1rem;
+          margin: .5rem;
           border-radius: var(--borderRadius);
           padding: .5rem 1rem;
           border: 1px solid var(--primaryColorLight);

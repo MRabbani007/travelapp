@@ -155,4 +155,7 @@ img, video {
   .secContainer {
     width: 100%;
   }
+  .grid-cols-2 {
+    grid-template-columns: 1fr;
+  }
 }/*# sourceMappingURL=App.css.map */

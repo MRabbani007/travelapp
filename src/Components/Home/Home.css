@@ -92,10 +92,21 @@
   justify-content: space-evenly;
 }
 .Home .popularPlaces .content .images img {
-  width: 250px;
-  height: 150px;
+  margin: 0.5rem 0;
+  width: 20%;
   -o-object-fit: fill;
      object-fit: fill;
   box-shadow: 1px 1px 1px 1px var(--blackColor);
   border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .popularPlaces .content .images {
+    flex-wrap: wrap;
+  }
+  .popularPlaces .content .images img {
+    width: 40%;
+    min-width: 150px;
+    height: 100px;
+  }
 }/*# sourceMappingURL=Home.css.map */

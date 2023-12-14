@@ -101,11 +101,26 @@
         justify-content: space-evenly;
 
         img{
-          width: 250px;
-          height: 150px;
+          margin: .5rem 0;
+          width: 20%;
           object-fit: fill;
           box-shadow: 1px 1px 1px 1px var(--blackColor);
           border-radius: 5px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px){
+  .popularPlaces{
+    .content{
+      .images{
+        flex-wrap: wrap;
+        img{
+          width: 40%;
+          min-width: 150px;
+          height: 100px;
         }
       }
     }
